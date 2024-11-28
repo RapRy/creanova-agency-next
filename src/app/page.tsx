@@ -1,4 +1,5 @@
 import Business from "@/components/home-components/Business";
+import FeaturedWorks from "@/components/home-components/FeaturedWorks";
 import PulsarNonCode from "@/components/home-components/PulsarNonCode";
 import RockRoll from "@/components/home-components/RockRoll";
 import TalentedPeople from "@/components/home-components/TalentedPeople";
@@ -12,6 +13,7 @@ export default function Home() {
       <WelcomePulsar />
       <RockRoll />
       <TalentedPeople />
+      <FeaturedWorks />
     </div>
   );
 }
